@@ -1,3 +1,5 @@
+/* Basic Animation */
+
 .box {
   width: 100px;
   height: 100px;
@@ -14,4 +16,16 @@
   to {
     left: 200px;
   }
+}
+
+/* Repeated Animation */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: moveRight;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
 }
