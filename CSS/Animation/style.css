@@ -28,4 +28,15 @@
   animation-name: moveRight;
   animation-duration: 2s;
   animation-iteration-count: 3;
+  animation-timing-function: ease-in-out;
 }
+
+/* Animation Speed */
+
+/* linear  (same speed)
+
+ease  (slow start, fast middle, slow end)
+
+ease-in (slow start)
+
+ease-out (slow end) */
