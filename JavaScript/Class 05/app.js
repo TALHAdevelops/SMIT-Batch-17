@@ -31,11 +31,29 @@ if (x === correctAnswer) {
   alert("Correct!");
 }
 
-// If Statement using incrememnt 
+// If Statement using incrememnt
 
 var correctAnswer = "Vatican";
 if (x === correctAnswer) {
-score++;
-userIQ = "genius";
-alert("Correct!");
+  score++;
+  userIQ = "genius";
+  alert("Correct!");
 }
+
+// Comparison Operators
+
+// == => Only Check Value
+// === => Check Value and Type also
+// !== => Not Equal
+// > is greater than
+// > is Less than
+// >= is greater than or equal to
+// <= is less than or equal to
+
+// Examples Disscuss in Class
+
+// var age = 21;
+
+// if (age <= 20) {
+//   console.log("Eligible");
+// }
