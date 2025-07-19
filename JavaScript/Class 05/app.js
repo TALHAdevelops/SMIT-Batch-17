@@ -16,3 +16,26 @@ var spec = prompt(question, defaultAnswer);
 
 var numberOfCats = prompt("How many cats?");
 var tooManyCats = numberOfCats + 1;
+
+// If Statements (True or False)
+
+var x = prompt("Where does the Pope live?");
+if (x === "Vatican") {
+  alert("Correct!");
+}
+
+// Variable using If Statements
+
+var correctAnswer = "Vatican";
+if (x === correctAnswer) {
+  alert("Correct!");
+}
+
+// If Statement using incrememnt 
+
+var correctAnswer = "Vatican";
+if (x === correctAnswer) {
+score++;
+userIQ = "genius";
+alert("Correct!");
+}
