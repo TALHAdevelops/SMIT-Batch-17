@@ -26,3 +26,16 @@ console.log(Students)
 var Students = ["Ali", "Kamran", "Shoaib"]
 Students.push("Ahmed")
 console.log(Students)
+
+// Shift and Unshift 
+// Delete First value and value in First index of arrays
+
+// SHIFT
+var Students = ["Ali", "Kamran", "Shoaib"]
+Students.shift()
+console.log(Students)
+
+// unshift
+var Students = ["Ali", "Kamran", "Shoaib"]
+Students.unshift("Ahmed")
+console.log(Students)
