@@ -13,7 +13,8 @@ let sliced = fruits.slice(1, 4);
 console.log(sliced);    // ['banana', 'cherry', 'date']
 console.log(fruits);    // ['apple', 'banana', 'cherry', 'date', 'fig']
 
-### 🔹 `splice()` Method
+
+🔹 splice() Method
 
 let colors = ['red', 'green', 'blue', 'yellow'];
 
