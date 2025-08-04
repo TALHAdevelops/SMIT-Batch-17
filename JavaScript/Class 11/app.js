@@ -1,1 +1,9 @@
 alert("Hello")
+
+var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+
+for (var i = 0; i <= 4; i++) {
+    if (cityToCheck === cleanestCities[i]) {
+        alert("It's one of the cleanest cities");
+    }
+}
