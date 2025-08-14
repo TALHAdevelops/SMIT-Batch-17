@@ -11,3 +11,13 @@ for (var i = 0; i < text.length; i++) {
     }
 
 }
+
+// Using Indexof for finding
+
+// console.log(text.indexOf("Pakistan"))
+
+if (text.indexOf("Pakistan") !== -1) {
+    console.log("Milgaya")
+} else {
+    console.log("Nhi Mila")
+}
