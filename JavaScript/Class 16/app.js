@@ -9,4 +9,6 @@ var num = Number(integerString);
 var floatingNumString = "24.9876";
 var num = Number(floatingNumString);
 
-
+// Convert Numbers to String
+var numberAsNumber = 1234;
+var numberAsString = numberAsNumber.toString();
