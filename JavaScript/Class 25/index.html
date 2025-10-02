@@ -23,6 +23,18 @@
     <input type="number" placeholder="Zip Code" onblur="fillCity()" id="zip" />
     <br />
     <input type="text" id="city" />
+
+    <!-- ChatBot -->
+
+    <ul id="list"></ul>
+    <div id="typing" style="display: none">Typing ...</div>
+
+    <input
+      onkeydown="sendMessage()"
+      type="text"
+      placeholder="message"
+      id="message"
+    />
     <script src="app.js"></script>
   </body>
 </html>
