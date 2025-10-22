@@ -50,3 +50,13 @@ console.log(newTxt)
 nodeToAdd.appendChild(newTxt);
 
 console.log(nodeToAdd)
+
+// Inserting Nodes
+
+var parentDiv = document.getElementById("div1");
+var newParagraph = document.createElement("p");
+var t = document.createTextNode("Hello world!");
+newParagraph.appendChild(t);
+parentDiv.appendChild(newParagraph);
+
+console.log(parentDiv)
