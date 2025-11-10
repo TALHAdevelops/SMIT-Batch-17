@@ -9,6 +9,31 @@ for (x in student) {
 
 console.log(text)
 
+// Change in Strings (For Add in Local Storage)
+// Add Object after change in Key and Value in strings
+
+var myInfo = {
+    Name: "GFG",
+    Age: 22,
+    Department: "Computer Science and Engineering",
+    Year: "3rd"
+}
+var Obj = JSON.stringify(myInfo);
+console.log(Obj)
+
+// Change String to Normal Object
+
+var myInfo = `{
+   "Name": "GFG", 
+   "Age":22,
+   "Department" : "Computer Science and Engineering",
+   "Year": "3rd"
+}`
+
+var Obj = JSON.parse(myInfo);
+console.log(Obj.Name)
+console.log(Obj.Age)
+
 // Local Storage
 function signup() {
     var name = document.getElementById("signupName").value;
