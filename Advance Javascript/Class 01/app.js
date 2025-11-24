@@ -1,7 +1,7 @@
 // Var have Global Scope
 
 var name = "Adil";
-var name = "Ahmed"; 
+var name = "Ahmed";
 console.log(name);
 
 // Let have Blocked Scope
@@ -15,3 +15,21 @@ console.log(age);
 const country = "Pakistan";
 console.log(country);
 
+// Closure 
+
+function outerFunction() {
+    let counter = 0;
+
+    function innerFunction() {
+        counter++;
+        console.log(counter);
+    }
+
+    return innerFunction;
+}
+
+const myCounter = outerFunction();
+
+myCounter();
+myCounter();
+myCounter(); 
