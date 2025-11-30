@@ -95,3 +95,17 @@ let age = 20;
 let student = { name, age };
 
 console.log(student);
+
+// Optional Chaining
+
+// It Passes Error (Undefined)
+
+let user = {};
+
+console.log(user.address.city);
+
+// Optional Chaining (No error)
+
+let user = {};
+
+console.log(user.address?.city);
