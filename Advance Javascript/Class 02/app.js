@@ -55,9 +55,21 @@ let obj1 = {
   address: { city: "Karachi" }
 };
 
-let obj2 = { ...obj1 }; // shallow copy
+let obj2 = { ...obj1 }; 
 
 obj2.address.city = "Lahore";
 
 console.log(obj1.address.city);
 
+// Deep Copy 
+
+let obj1 = {
+  name: "Hamza",
+  address: { city: "Karachi" }
+};
+
+let obj2 = JSON.parse(JSON.stringify(obj1)); 
+
+obj2.address.city = "Lahore";
+
+console.log(obj1.address.city); 
