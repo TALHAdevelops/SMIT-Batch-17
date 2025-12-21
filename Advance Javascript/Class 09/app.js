@@ -39,3 +39,21 @@ async function showData() {
 }
 
 showData();
+
+// Result Check Example
+
+function getResult() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("Student Passed ✅");
+        }, 3000);
+    });
+}
+
+async function checkResult() {
+    console.log("Checking result...");
+    let result = await getResult();
+    console.log(result);
+}
+
+checkResult();
