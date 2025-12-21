@@ -57,3 +57,15 @@ async function checkResult() {
 }
 
 checkResult();
+
+// Error Handling
+
+async function loadData() {
+    try {
+        let response = await fetch("wrong-url");
+        let data = await response.json();
+        console.log(data);
+    } catch (error) {
+        console.log("Error occurred:", error);
+    }
+}
