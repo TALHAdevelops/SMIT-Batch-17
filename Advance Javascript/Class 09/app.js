@@ -20,3 +20,22 @@ async function getData() {
         console.log(error);
     }
 }
+
+// Example Using Promise
+
+function delay() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("Data mil gaya");
+        }, 2000);
+    });
+}
+
+// Then
+
+async function showData() {
+    let result = await delay();
+    console.log(result);
+}
+
+showData();
