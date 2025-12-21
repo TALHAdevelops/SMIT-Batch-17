@@ -8,8 +8,8 @@ mySet.add(10);
 
 // Check Value 
 
-console.log(mySet.has(10)); 
-console.log(mySet.has(30)); 
+console.log(mySet.has(10));
+console.log(mySet.has(30));
 
 // Delete Value
 
@@ -17,11 +17,11 @@ mySet.delete(20);
 
 // Checking Size
 
-console.log(mySet.size); 
+console.log(mySet.size);
 
 // Clear 
 
-console.log(mySet.size); 
+console.log(mySet.size);
 
 // Remove Duplicate Value
 
@@ -30,4 +30,37 @@ let uniqueNumbers = new Set(numbers);
 
 console.log(uniqueNumbers);
 
+// Map( ) Key - Value  Store 
 
+let myMap = new Map();
+
+// Set Value 
+
+myMap.set("name", "Adil");
+myMap.set("age", 25);
+
+// Check Value
+
+console.log(myMap.has("age"));
+
+// Delete Value
+
+myMap.delete("age");
+
+// Size of Value
+
+console.log(myMap.size);
+
+// Clear
+
+myMap.clear();
+
+// Loop in Map
+
+let student = new Map();
+student.set("name", "Ali");
+student.set("course", "JavaScript");
+
+for (let [key, value] of student) {
+    console.log(key, value);
+}
