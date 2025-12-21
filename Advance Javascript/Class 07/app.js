@@ -64,3 +64,13 @@ student.set("course", "JavaScript");
 for (let [key, value] of student) {
     console.log(key, value);
 }
+
+// Example Set and Map
+
+let students = new Set(["Ali", "Ahmed", "Ali"]);
+console.log(students);
+
+let studentInfo = new Map();
+studentInfo.set("id", 101);
+studentInfo.set("name", "Ali");
+studentInfo.set("feePaid", true);
