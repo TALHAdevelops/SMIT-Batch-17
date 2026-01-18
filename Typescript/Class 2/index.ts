@@ -24,3 +24,18 @@ let student: {
   name: "Ali",
   age: 20
 };
+
+
+// Create object using Interface
+
+interface Student {
+  name: string;
+  age: number;
+  isPassed?: boolean;
+}
+
+let student1: Student = {
+  name: "Ali",
+  age: 20,
+  
+};
