@@ -53,3 +53,11 @@ let arr1: string[] = ["123", "123", "123"]
 
 let abc: Array<string> = ["a", "b", "c"]
 
+// Void Type Function
+
+function greet(name: string): void {
+console.log("Hello " + name);
+}
+
+
+greet("Adil");
