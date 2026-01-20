@@ -39,3 +39,4 @@ let student1: Student = {
   age: 20,
   
 };
+
