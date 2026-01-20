@@ -49,5 +49,7 @@ let student1: Student = {
 let arr: number[] = [123, 123, 123]
 let arr1: string[] = ["123", "123", "123"]
 
+// Create Arrays with Another way to assign type
 
+let abc: Array<string> = ["a", "b", "c"]
 
